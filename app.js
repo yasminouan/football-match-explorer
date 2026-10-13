@@ -1,3 +1,5 @@
+Chart.defaults.color = "#e8eefc";
+Chart.defaults.borderColor = "rgba(255,255,255,0.1)";
 const BASE = "https://raw.githubusercontent.com/statsbomb/open-data/master/data";
 let chart;
 
@@ -41,8 +43,8 @@ async function loadMatch(id) {
     label: `${name} (${teams[name].total.toFixed(2)} xG)`,
     data: teams[name].points,
     borderColor: colors[i],
-    stepped: true,
-    pointRadius: 0
+borderWidth: 3,
+stepped: true,
   }));
 
   document.getElementById("score").textContent = Object.keys(teams).join(" vs ");
