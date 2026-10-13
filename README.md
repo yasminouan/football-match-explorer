@@ -4,7 +4,7 @@ Application web qui permet d'explorer les statistiques d'un match de football, a
 
 🔗 **Démo en ligne :** https://yasminouan.github.io/football-match-explorer/
 
-![Aperçu du projet]()
+![Aperçu du projet](screenshot.png)
 
 ## Fonctionnalités
 - Choix d'un match de la Coupe du monde 2022
